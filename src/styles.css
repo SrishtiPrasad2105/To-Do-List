@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(assets/css/datepicker.css);
+@import '~ngx-toastr/toastr';
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab&display=swap');
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+.ff-serif { font-family: 'Bree Serif', serif; }
+.ff-normal { font-family: 'Roboto Slab', serif; }
+
+bs-datepicker-container {
+    z-index: 2147483647;
+}
+
+.flex{ display: flex;}
+.gap{gap: 1.8rem;}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+figure,
+picture {
+    margin: 0; 
+}
+
+
+/* .mat-drawer-inner-container {
+    background: white;
+} */
+
+.mat-button .mat-button-wrapper>*, .mat-flat-button .mat-button-wrapper>*, .mat-stroked-button .mat-button-wrapper>*, .mat-raised-button .mat-button-wrapper>*, .mat-icon-button .mat-button-wrapper>*, .mat-fab .mat-button-wrapper>*, .mat-mini-fab .mat-button-wrapper>* {
+    color: #6a1b9a;
+}
